@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "more-worked",
 	"version": "1.0",
-	"description": "An extension that changes the phrase \"open-sourced\" to \"more-worked\"",
+	"description": "A Chrome extension that explains the true nature of software that is developed in house and then released to the world.",
 	"icons": { "16": "images/morework16.png", "48": "images/morework48.png", "128": "images/morework128.png" },
 	"content_scripts": 
 	[
