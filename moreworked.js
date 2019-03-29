@@ -38,5 +38,10 @@ function handleText(textNode)
 	v = v.replace(/\bOpen Source\b/g, "More Work");
 	v = v.replace(/\bOpen-Source\b/g, "More-Work");
 	
+	v = v.replace(/\bOpen sourced\b/g, "More worked");
+	v = v.replace(/\bOpen-sourced\b/g, "More-worked");
+	v = v.replace(/\bOpen source\b/g, "More work");
+	v = v.replace(/\bOpen-source\b/g, "More-work");
+		
 	textNode.nodeValue = v;
 }
